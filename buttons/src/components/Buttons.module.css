@@ -1,0 +1,28 @@
+.common-btn {
+  composes: beauty from "../App.module.css";
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.btn1 {
+  composes: common-btn;
+  background-color: orange;
+  border: 2px solid brown;
+  color: white;
+  margin-left: 10px;
+}
+
+.btn2 {
+  composes: common-btn;
+  background-color: red;
+  border: 2px solid green;
+  margin-left: 10px;
+}
+
+.btn3 {
+  composes: common-btn;
+  background-color: brown;
+  border: 2px solid yellowgreen;
+  color: orange;
+  margin-left: 10px;
+}
