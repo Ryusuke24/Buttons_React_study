@@ -1,5 +1,6 @@
 import React from "react";
 import Buttons from "./components/Buttons";
+import Input from "./inputComponent/Input";
 import appStyle from "./App.module.css";
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <div className={appStyle.wrapper}>
         <Buttons />
       </div>
+      <Input />
     </>
   );
 }
